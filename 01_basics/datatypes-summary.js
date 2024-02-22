@@ -26,9 +26,34 @@ let myObj={
 const myFunction=function(){
     console.log("Hello World");
 }
-
+/*
 console.log(typeof bigNumber);
 console.log(typeof myFunction);
 console.log(typeof myObj);
 console.log(typeof heros);
 console.log(typeof id);
+*/
+
+// ++++++++++++++++++++++++++++++++++++++++++++++
+// Memory
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myCollegeEmail="rishu@iilmcet.ac.in"
+
+let anotherEmail=myCollegeEmail
+anotherEmail="rishu@gmail.com"
+
+console.log(myCollegeEmail);
+console.log(anotherEmail);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl",
+}
+
+let userTwo=userOne;
+
+userTwo.email="rishu@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
