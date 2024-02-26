@@ -23,4 +23,33 @@ function chai(){
 chai()
 */
 
-cost 
+/*
+ const chai=function(){
+    let username= "rishu"
+    console.log(this.username);
+ }
+
+ chai()
+ */
+
+ const chai = () => {  // arrow function
+    let username= "rishu"
+    console.log(this);
+ }
+
+ // chai()
+
+ /*
+ const addTwo=(num1, num2) =>{ // basic arrow function
+    return num1 + num2
+ }
+*/
+
+// const addTwo=(num1, num2) => num1 + num2
+// const addTwo=(num1, num2) => (num1 + num2)  // implicit return
+const addTwo=(num1, num2) => ({username: "rishu"}) // implicit return an object
+
+ console.log(addTwo(3, 4));
+
+ // const myArray=[2, 3, 4, 5, 7, 8]
+ // myArray.forEach()
