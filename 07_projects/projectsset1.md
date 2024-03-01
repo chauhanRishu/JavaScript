@@ -5,7 +5,7 @@
 
 # solution code
 
-## project 1
+## project 1 solution code
 
 ```javascript
 console.log("hitesh")
